@@ -1,0 +1,12 @@
+import pepita.*
+import comidas.*
+import masAves.*
+import roque.*
+
+test "roque trabaja" 
+{
+    roque.tuPupiloEs(pepita)
+    roque.entrenar()
+    roque.entrenar()
+    assert.that(pepita.energia() == 2490)
+}
